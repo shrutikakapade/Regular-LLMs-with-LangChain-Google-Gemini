@@ -26,6 +26,79 @@
         </ul>
       </div>
     </section>
+  <h3>✅ What This Notebook Covers</h3>
+<div
+    <div class="section">
+        <h2>1. LLM Configuration (Gemini Model Setup)</h2>
+        <ul>
+            <li>Demonstrates how to initialize Google Gemini using LangChain.</li>
+            <li>Shows key configuration parameters such as:
+                <ul>
+                    <li>model</li>
+                    <li>api_key</li>
+                    <li>temperature</li>
+                    <li>max_tokens</li>
+                    <li>retries</li>
+                    <li>request_timeout</li>
+                </ul>
+            </li>
+            <li>Helps understand how each setting influences LLM behavior and output quality.</li>
+        </ul>
+    </div>
+<div
+    <div class="section">
+        <h2>2. Prompt Templates (Prompt Engineering Basics)</h2>
+        <ul>
+            <li>Explains how to create reusable prompt templates in LangChain.</li>
+            <li>Shows how prompts shape the model's final response.</li>
+            <li>Builds a strong foundation in prompt engineering for LLM applications.</li>
+        </ul>
+    </div>
+<div
+    <div class="section">
+        <h2>3. Invoke Method (Single Request Execution)</h2>
+        <ul>
+            <li>Demonstrates the use of the <span class="highlight">invoke()</span> method for one-time prompt execution.</li>
+            <li>Useful for:
+                <ul>
+                    <li>Quick testing</li>
+                    <li>Query answering</li>
+                    <li>Real-time interactions</li>
+                </ul>
+            </li>
+            <li>Helps you understand how LLMs behave with single-shot inputs.</li>
+        </ul>
+    </div>
+<div
+    <div class="section">
+        <h2>4. Batch Execution (Multiple Inputs Together)</h2>
+        <ul>
+            <li>Shows how to process multiple prompts simultaneously.</li>
+            <li>Highlights the difference between:
+                <ul>
+                    <li>Invoke → Single request</li>
+                    <li>Batch → Multiple requests at once</li>
+                </ul>
+            </li>
+            <li>Great for learning scalability and multi-input processing workflows.</li>
+        </ul>
+    </div>
+<div
+    <div class="section">
+        <h2>5. Error Handling & Performance Controls</h2>
+        <ul>
+            <li>Covers essential reliability settings including retries and timeouts.</li>
+            <li>Shows how to manage:
+                <ul>
+                    <li>Slow responses</li>
+                    <li>Temporary API failures</li>
+                </ul>
+            </li>
+            <li>Builds understanding of robust, production-ready LLM pipelines.</li>
+        </ul>
+    </div>
+<div
+    
 <div
     <section>
       <h2>Why this is useful for learning</h2>
