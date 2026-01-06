@@ -221,6 +221,137 @@ These concepts are critical for building stable, production-ready LLM systems.
     <li>Structured for clarity and self-paced learning</li>
 </ul>
 </div>
+<div class="section">
+<h2>📂 Project Structure</h2>
+
+<pre>
+project/
+├── files/
+│   ├── .env        # API key configuration
+│   ├── main.py     # Streamlit chat interface
+│   └── req.txt     # Required dependencies
+├── Include/
+├── Lib/
+├── Scripts/
+├── share/
+├── langchain project.code-workspace
+└── pyvenv.cfg
+</pre>
+
+<p>
+The <strong>files/</strong> folder contains all application-specific files required
+to run the project.
+</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>⚙️ Environment Setup (Step-by-Step)</h2>
+
+<h3>1️⃣ Create a Virtual Environment</h3>
+<pre><code>python -m venv project</code></pre>
+
+<h3>2️⃣ Activate the Virtual Environment</h3>
+
+<p><strong>Windows:</strong></p>
+<pre><code>project\Scripts\activate</code></pre>
+
+<p><strong>macOS / Linux:</strong></p>
+<pre><code>source project/bin/activate</code></pre>
+
+<h3>3️⃣ Install Required Dependencies</h3>
+<pre><code>pip install -r req.txt</code></pre>
+
+<p>
+This installs LangChain, Google Generative AI integrations,
+Streamlit, and python-dotenv.
+</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>🔐 API Key Management (dotenv)</h2>
+
+<p>
+To securely manage your API key:
+</p>
+
+<ol>
+    <li>Create a <code>.env</code> file inside the <code>files/</code> folder</li>
+    <li>Add your Google Gemini API key:</li>
+</ol>
+
+<pre><code>API_KEY="your_api_key_here"</code></pre>
+
+<p>
+The key is loaded at runtime using <strong>python-dotenv</strong>.
+</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>📘 File Explanation</h2>
+
+>
+
+<h3>1. Main.py (Streamlit Chat App)</h3>
+<p>
+This file provides a simple web-based chat interface using
+<code>ChatGoogleGenerativeAI</code>.
+</p>
+
+<ul>
+    <li>Streamlit-based UI</li>
+    <li>Secure API loading via dotenv</li>
+    <li>Real-time conversational interaction</li>
+</ul>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>▶️ Running the Application</h2>
+
+<pre><code>streamlit run main.py</code></pre>
+
+<p>
+This launches a browser-based chat interface for interacting
+with the Gemini chat model.
+</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>🎥 Video Demonstration</h2>
+
+<p>
+A video recording of the project execution is provided for reference.
+</p>
+
+<ul>
+    <li>Virtual environment activation</li>
+    <li>VS Code folder structure</li>
+    <li>Live chat execution</li>
+</ul>
+
+
+
+
+
+https://github.com/user-attachments/assets/d376638b-bd4e-4c34-88a0-54bb63efd447
+
+
+
+
+
+
+</div>
+
+<hr>
 
 <hr>
 
