@@ -382,10 +382,7 @@ providing a smooth learning transition from
 
 <hr>
 
-<p>
-⭐ If this repository helps you understand LLM fundamentals,
-consider starring it and continuing with the Chat LLM repository.
-</p>
+
 
 </body>
 </html>
