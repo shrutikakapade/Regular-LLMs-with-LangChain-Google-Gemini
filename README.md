@@ -300,7 +300,7 @@ The key is loaded at runtime using <strong>python-dotenv</strong>.
 <h3>1. Main.py (Streamlit Chat App)</h3>
 <p>
 This file provides a simple web-based chat interface using
-<code>ChatGoogleGenerativeAI</code>.
+<code>GoogleGenerativeAI</code>.
 </p>
 
 <ul>
